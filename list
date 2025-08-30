@@ -1,0 +1,62 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .gitignore
+	new file:   .vscode/settings.json
+	modified:   README.md
+	new file:   client/app/.gitignore
+	new file:   client/app/README.md
+	new file:   client/app/package-lock.json
+	new file:   client/app/package.json
+	new file:   client/app/public/favicon.ico
+	new file:   client/app/public/index.html
+	new file:   client/app/public/logo192.png
+	new file:   client/app/public/logo512.png
+	new file:   client/app/public/manifest.json
+	new file:   client/app/public/robots.txt
+	new file:   client/app/src/App.css
+	new file:   client/app/src/App.js
+	new file:   client/app/src/App.test.js
+	new file:   client/app/src/components/ContentArea.css
+	new file:   client/app/src/components/ContentArea.js
+	new file:   client/app/src/components/Header.css
+	new file:   client/app/src/components/Header.js
+	new file:   client/app/src/components/LoginTablet.css
+	new file:   client/app/src/components/LoginTablet.js
+	new file:   client/app/src/components/RoomTablet.css
+	new file:   client/app/src/components/RoomTablet.js
+	new file:   client/app/src/components/Sidepanel.css
+	new file:   client/app/src/components/Sidepanel.js
+	new file:   client/app/src/images/shot_1.png
+	new file:   client/app/src/images/shot_2.png
+	new file:   client/app/src/index.css
+	new file:   client/app/src/index.js
+	new file:   client/app/src/pages/Bookings.js
+	new file:   client/app/src/pages/Login.css
+	new file:   client/app/src/pages/Login.js
+	new file:   client/app/src/pages/Main.css
+	new file:   client/app/src/pages/Main.js
+	new file:   client/app/src/pages/Overview.js
+	new file:   client/app/src/pages/QuickBooking.js
+	new file:   client/app/src/pages/Reviews.js
+	new file:   client/app/src/pages/Rooms.css
+	new file:   client/app/src/pages/Rooms.js
+	new file:   client/app/src/reportWebVitals.js
+	new file:   client/app/src/setupTests.js
+	new file:   client/dockerfile
+	new file:   docker-compose.yml
+	new file:   server/.gitignore
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    client/app/public/favicon.ico
+	deleted:    client/app/public/logo192.png
+	deleted:    client/app/public/logo512.png
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	list
+

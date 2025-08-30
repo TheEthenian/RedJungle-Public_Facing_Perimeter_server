@@ -1,0 +1,36 @@
+import React from 'react'
+import './LoginTablet.css'
+
+function LoginTablet() {
+  return (
+    <div className='main_div_login_tablet'>
+
+        <div className='platform_message'>
+            <h1>Welcome , SignUp</h1>
+        </div>
+
+        <div className='action_message'>
+            <p className='action_message_text'>Create an Account</p>
+        </div>
+
+        <div className='input_section_area'>
+            
+            <div className='names_div'>
+              <input className='names_div_input' type='text' name='first_name' placeholder='First name'/>
+              <input className='names_div_input' type='text' name='second_name' placeholder='Second name'/>
+            </div>
+
+            <input className='email_password_div_input' type='email' name='email' placeholder='Email'/>
+            <input className='email_password_div_input' type='password' name='password' placeholder='Password'/>
+
+        </div>
+
+        <div className='submit_button_div'>
+          <button className='submit_button'>SignUp</button>
+        </div>
+
+    </div>
+  )
+}
+
+export default LoginTablet
