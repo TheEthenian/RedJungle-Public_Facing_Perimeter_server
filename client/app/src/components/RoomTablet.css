@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 .singular_tablet:hover{
-    box-shadow: 8px 8px 10px rgba(118, 143, 143, 0.39) ;
+    box-shadow: 3px 3px 20px rgba(118, 143, 143, 0.39) ;
     background-color: rgba(5, 7, 7, 0.699);
 }
 .first_div{

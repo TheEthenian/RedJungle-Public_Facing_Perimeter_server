@@ -6,6 +6,9 @@
     width: 100vw;
     height: 5vh;
     background-color: rgb(28, 28, 29);
+    border-bottom: 0.5px solid rgb(104, 102, 102);
+    border-top: 0.5px solid rgb(104, 102, 102);
+    box-sizing: border-box;
 }
 .username{
     display: flex;
