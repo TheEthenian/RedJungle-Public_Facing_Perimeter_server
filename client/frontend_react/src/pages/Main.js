@@ -6,7 +6,7 @@ import ContentArea from '../components/ContentArea';
 import { useState } from 'react';
 
 
-const Main_component = () => {
+const MainComponent = () => {
     const [CurrentPage,setCurrentPage] = useState('home');
 
     const selected_page = (page_name) => {
@@ -25,7 +25,7 @@ const Main_component = () => {
     );
 };
 
-export default Main_component;
+export default MainComponent;
 
 
 

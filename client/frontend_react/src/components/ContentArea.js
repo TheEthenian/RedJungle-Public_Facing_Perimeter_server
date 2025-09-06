@@ -8,42 +8,42 @@ import QuickBooking from '../pages/QuickBooking';
 import Login from '../pages/Login'
 
 function ContentArea(props) {
-    if (props.page=='Login'){
+    if (props.page === 'Login'){
         return (
             <div className='content_area'>
                 <Login/>
             </div>
         )
     }
-    if (props.page=='Overview'){
+    if (props.page === 'Overview'){
         return (
             <div className='content_area'>
                 <Overview/>
             </div>
         )
     }
-    if (props.page=='Rooms'){
+    if (props.page === 'Rooms'){
         return (
             <div className='content_area'>
                 <Rooms/>
             </div>
         )
     }
-    if (props.page=='Bookings'){
+    if (props.page === 'Bookings'){
         return (
             <div className='content_area'>
                 <Bookings/>
             </div>
         )
     }
-    if (props.page=='Reviews'){
+    if (props.page === 'Reviews'){
         return (
             <div className='content_area'>
                 <Reviews/>
             </div>
         )
     }
-    if (props.page=='QuickBooking'){
+    if (props.page === 'QuickBooking'){
         return (
             <div className='content_area'>
                 <QuickBooking/>
