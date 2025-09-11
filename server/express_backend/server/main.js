@@ -1,8 +1,10 @@
 const bodyParser = require('body-parser');
+const axios = require('axios');
 
 const express = require('express');
 const app = express();
 const PORT = 5090;
+const get_data_url = 'http://redjungle-00.lab:6090';
 
 app.use(express.json());
 app.use(bodyParser.json());
@@ -24,9 +26,39 @@ const update_items = (items) => {
 };
 
 
+function unpack_update_list(data){
+    const itemlist = [];
+    data.forEach( item => {
+        itemlist.push(item);
+    });
+    
+    return itemlist;
+};
+
+
+
 //routing logic
 app.get('/', (req,res) => {
-    res.status(200).json({content: items_list});
+    res.send('Hello , wrong page targeted')
+});
+
+
+app.get('/fastapi', (req,res) => {
+
+    function fetch_specific_data(target_url){
+
+        axios.get(target_url) 
+            .then( response => {
+                const processed_list = unpack_update_list(response.data);
+                res.send(processed_list);
+            })
+            .catch(error => {
+                 console.error('Error fetching data: ', error);
+            });
+    };
+
+    fetch_specific_data(get_data_url);
+    
 });
 
 app.post('/', (req, res) => {
