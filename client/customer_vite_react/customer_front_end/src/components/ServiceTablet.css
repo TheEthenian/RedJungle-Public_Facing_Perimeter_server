@@ -1,0 +1,100 @@
+.main_div_service_tablet{
+  margin: 7px;
+  border-radius: 5px;
+  padding: 2px;
+  box-sizing: border-box;
+  background-color: rgb(83, 81, 81);
+  max-height: 40%;
+  max-width: 15%;
+  height: 40%;
+  width: 15%;
+}
+.first_div_service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  max-height: 15%;
+  height: 15%;
+}
+.service_name{
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+}
+.second_div_service{
+  max-width: 100%;
+  width: 100%;
+  max-height: 50%;
+  height: 50%;
+
+}
+.second_div_service > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.third_div_service{
+  max-width: 100%;
+  width: 100%;
+  max-height: 15%;
+  height: 15%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.service_day_available{
+  color: rgb(4, 197, 197);
+  font-weight: 500;
+}
+.service_time_availble{
+  color:rgb(10, 189, 91);
+  font-weight: 700;
+}
+.day_time_service_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth_div_service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  max-height: 20%;
+  height: 20%;
+}
+.service_button{
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.book_service_button{
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.service_button:hover,.book_service_button:hover{
+  color: black;
+  background-color: white;
+}
+
+
+
+
+
+

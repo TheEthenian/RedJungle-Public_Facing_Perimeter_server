@@ -1,31 +1,23 @@
-SPA Hotel Chain Application for Guests
+FEATURES FOR ALL APPLICATION:
+===============================
 
-Various features:
-- Rooms
-- Login account
-- Booking form
-- Booking Details & cancelations
-- Customer review { comment , star rating, picture}
-- Customer reward points {redeem , reward}
-- Quick regular customer customized booking
+SPA Hotel Chain Application for Customers
+- Rooms [Available]
+- Hotel_Services [Available]
+- Booking [User]
+- Billing/Transaction [User]
+- Reviews [Users,Everyone]
 
-
-Technologies:
-- React
-- Django
-
-API list:
-- User_signup
-- user login
-- Room availability data
-- custom booking data
-- custom data pull for user history
-- customer reward points
-- reviews data
-
-
-API Architecture => GraphQL, RESTApi, SOAP
-Security Checks => OAuth , JWT
-
+SPA Hotel Chain Application for ADMIN/SUPER_ADMIN
+- Rooms [available,maintenance,booked]
+- Hotel [individual,tenant_hotels,all_tenant_hotels]
+- Tenant [individual,all_tenants]
+- Billing/Transaction  [hotel,tenant_hotels,all_tenant_hotels]
+- Reviews [hotel,tenant_hotels,all_tenant_hotels]
+- Services [individual,tenant_hotels,all_tenant_hotels]
+- Users [hotel,tenant_hotels,all_tenant_hotels]
+- Guests [hotel,tenant_hotels,all_tenant_hotels]
+- Analytics [hotel,tenant_hotels,all_tenant_hotels]
+- Audit_logs [hotel,tenant_hotels,all_tenant_hotels]
 
 
