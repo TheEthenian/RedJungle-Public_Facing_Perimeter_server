@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
 }
-.column_name{
+.column_name_billing{
     color: rgb(5, 179, 170);
     font-size: medium;
     font-weight: 400;
